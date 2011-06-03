@@ -1,0 +1,21 @@
+<project name="designpatterns" default="build" basedir=".">
+	
+	<target name="clean">
+		<echo>cleaning project</echo>
+	</target>
+	
+	<target name="compile">
+		<echo>compiling source</echo>
+	</target>
+	
+	<target name="test">
+		<echo>Testing</echo>
+	</target>
+	
+	<target name="jar">
+		<echo>Building jar</echo>
+	</target>
+	
+	<target name="build" depends="clean, compile, test, jar" 
+		description="Building design prjoect"/>
+</project>
