@@ -1,6 +1,6 @@
 package net.designpattern.behavioral.state;
 
-public interface CaseState {
+public interface PenState {
 
 	public void write(String name);
 	

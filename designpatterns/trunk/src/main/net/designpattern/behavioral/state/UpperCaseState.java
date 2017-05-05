@@ -1,10 +1,9 @@
 package net.designpattern.behavioral.state;
 
-public class UpperCaseState implements CaseState {
+public class UpperCaseState implements PenState {
 
-	@Override
 	public void write(String name) {
-		System.out.println(name.toUpperCase());
+		System.out.print(name.toUpperCase());
 	}
 
 }
